@@ -7042,3 +7042,440 @@
 2025-03-19 11:20:50.619 +07:00 [INF] Executed endpoint '/ (/)'
 2025-03-19 11:20:50.619 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5166ms
 2025-03-19 11:20:56.430 +07:00 [INF] Application is shutting down...
+2025-03-19 13:16:01.162 +07:00 [INF] Starting web host.
+2025-03-19 13:16:08.200 +07:00 [INF] Loaded ABP modules:
+2025-03-19 13:16:08.202 +07:00 [INF] - Acme.BookStore.Blazor.BookStoreBlazorModule
+2025-03-19 13:16:08.202 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-03-19 13:16:08.202 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-03-19 13:16:08.202 +07:00 [INF]   - Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeBundlingModule
+2025-03-19 13:16:08.202 +07:00 [INF]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2025-03-19 13:16:08.202 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-03-19 13:16:08.202 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-03-19 13:16:08.202 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-03-19 13:16:08.202 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-03-19 13:16:08.202 +07:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-03-19 13:16:08.202 +07:00 [INF]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]                   - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-03-19 13:16:08.202 +07:00 [INF]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]                   - Volo.Abp.Timing.AbpTimingModule
+2025-03-19 13:16:08.202 +07:00 [INF]                     - Volo.Abp.Localization.AbpLocalizationModule
+2025-03-19 13:16:08.202 +07:00 [INF]                       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-03-19 13:16:08.202 +07:00 [INF]                       - Volo.Abp.Settings.AbpSettingsModule
+2025-03-19 13:16:08.202 +07:00 [INF]                         - Volo.Abp.Security.AbpSecurityModule
+2025-03-19 13:16:08.202 +07:00 [INF]                       - Volo.Abp.Threading.AbpThreadingModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-03-19 13:16:08.202 +07:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2025-03-19 13:16:08.202 +07:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-03-19 13:16:08.202 +07:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2025-03-19 13:16:08.202 +07:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-03-19 13:16:08.202 +07:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-03-19 13:16:08.202 +07:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2025-03-19 13:16:09.237 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 13:16:10.660 +07:00 [WRN] Mapped static asset endpoints not found. Ensure 'MapStaticAssets' is called before 'AddInteractiveWebAssemblyRenderMode'.
+2025-03-19 13:16:14.581 +07:00 [INF] Initialized all ABP modules.
+2025-03-19 13:16:14.686 +07:00 [INF] Now listening on: https://localhost:44340
+2025-03-19 13:16:14.686 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 13:16:14.686 +07:00 [INF] Hosting environment: Development
+2025-03-19 13:16:14.686 +07:00 [INF] Content root path: E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor
+2025-03-19 13:16:15.196 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:16:15.231 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:16:15.321 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:16:15.328 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 131.8908ms
+2025-03-19 13:16:15.329 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:16:15.330 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:16:15.335 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:16:15.336 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 6.4371ms
+2025-03-19 13:16:15.352 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authors - null null
+2025-03-19 13:16:15.353 +07:00 [INF] Executing endpoint '/authors (/authors)'
+2025-03-19 13:16:15.356 +07:00 [INF] Executed endpoint '/authors (/authors)'
+2025-03-19 13:16:15.356 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authors - 200 null text/html; charset=utf-8 4.6756ms
+2025-03-19 13:16:15.373 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:15.373 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:16:15.373 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:16:15.376 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:15.378 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:15.378 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:15.378 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 5.397ms
+2025-03-19 13:16:15.399 +07:00 [INF] Sending file. Request path: '/global.js'. Physical path: 'N/A'
+2025-03-19 13:16:15.399 +07:00 [INF] Sending file. Request path: '/global.css'. Physical path: 'N/A'
+2025-03-19 13:16:15.400 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 200 662975 text/css 27.182ms
+2025-03-19 13:16:15.400 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 200 677686 application/javascript 27.1092ms
+2025-03-19 13:16:15.561 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.boot.json - null null
+2025-03-19 13:16:15.586 +07:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json'
+2025-03-19 13:16:15.586 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.boot.json - 200 70285 application/json 25.1955ms
+2025-03-19 13:16:16.227 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.HttpApi.Client.2qo44o004n.pdb - null null
+2025-03-19 13:16:16.227 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Domain.Shared.kurngy4o2y.pdb - null null
+2025-03-19 13:16:16.227 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Application.Contracts.5wvgbsrmdd.pdb - null null
+2025-03-19 13:16:16.227 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Blazor.Client.5e4spqx233.pdb - null null
+2025-03-19 13:16:16.228 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Application.Contracts.q2c4y1nsfn.wasm - null null
+2025-03-19 13:16:16.228 +07:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.228 +07:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.228 +07:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.228 +07:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.228 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Domain.Shared.61n53d92ud.wasm - null null
+2025-03-19 13:16:16.229 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.HttpApi.Client.52heftd8b2.wasm - null null
+2025-03-19 13:16:16.229 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Blazor.Client.o6z8mbbcp1.wasm - null null
+2025-03-19 13:16:16.229 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/appsettings.json - null null
+2025-03-19 13:16:16.229 +07:00 [INF] The file /appsettings.json was not modified
+2025-03-19 13:16:16.229 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/appsettings.json - 304 null application/json 0.2591ms
+2025-03-19 13:16:16.238 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.Application.Contracts.5wvgbsrmdd.pdb.gz'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\obj\Debug\net9.0\compressed\34xbh2ojso-5wvgbsrmdd.gz'
+2025-03-19 13:16:16.238 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.Domain.Shared.kurngy4o2y.pdb.gz'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\obj\Debug\net9.0\compressed\hn8147371o-kurngy4o2y.gz'
+2025-03-19 13:16:16.238 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.HttpApi.Client.2qo44o004n.pdb.gz'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\obj\Debug\net9.0\compressed\4lso9ic649-2qo44o004n.gz'
+2025-03-19 13:16:16.239 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.Blazor.Client.5e4spqx233.pdb.gz'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\obj\Debug\net9.0\compressed\qoe0p70cxu-5e4spqx233.gz'
+2025-03-19 13:16:16.240 +07:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.240 +07:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.240 +07:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.240 +07:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-03-19 13:16:16.240 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Application.Contracts.5wvgbsrmdd.pdb.gz - 200 11055 application/octet-stream 13.3025ms
+2025-03-19 13:16:16.240 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.HttpApi.Client.2qo44o004n.pdb.gz - 200 10220 application/octet-stream 13.3025ms
+2025-03-19 13:16:16.241 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Blazor.Client.5e4spqx233.pdb.gz - 200 37440 application/octet-stream 13.6679ms
+2025-03-19 13:16:16.241 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Domain.Shared.kurngy4o2y.pdb.gz - 200 9903 application/octet-stream 13.2765ms
+2025-03-19 13:16:16.242 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.HttpApi.Client.52heftd8b2.wasm'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\bin\Debug\net9.0\wwwroot\_framework\Acme.BookStore.HttpApi.Client.52heftd8b2.wasm'
+2025-03-19 13:16:16.242 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.HttpApi.Client.52heftd8b2.wasm - 200 7957 application/wasm 13.6785ms
+2025-03-19 13:16:16.251 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.Application.Contracts.q2c4y1nsfn.wasm'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\bin\Debug\net9.0\wwwroot\_framework\Acme.BookStore.Application.Contracts.q2c4y1nsfn.wasm'
+2025-03-19 13:16:16.251 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Application.Contracts.q2c4y1nsfn.wasm - 200 14613 application/wasm 22.723ms
+2025-03-19 13:16:16.251 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.Domain.Shared.61n53d92ud.wasm'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\bin\Debug\net9.0\wwwroot\_framework\Acme.BookStore.Domain.Shared.61n53d92ud.wasm'
+2025-03-19 13:16:16.252 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Domain.Shared.61n53d92ud.wasm - 200 45845 application/wasm 23.2737ms
+2025-03-19 13:16:16.253 +07:00 [INF] Sending file. Request path: '/_framework/Acme.BookStore.Blazor.Client.o6z8mbbcp1.wasm'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\bin\Debug\net9.0\wwwroot\_framework\Acme.BookStore.Blazor.Client.o6z8mbbcp1.wasm'
+2025-03-19 13:16:16.254 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/Acme.BookStore.Blazor.Client.o6z8mbbcp1.wasm - 200 98581 application/wasm 24.8146ms
+2025-03-19 13:16:19.243 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=530ec8e513cb403592dcee7b8bb0911e&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:19.244 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.244 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.244 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=530ec8e513cb403592dcee7b8bb0911e&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 1.1205ms
+2025-03-19 13:16:19.249 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:16:19.250 +07:00 [INF] The file /global.css was not modified
+2025-03-19 13:16:19.250 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 304 null text/css 0.6442ms
+2025-03-19 13:16:19.251 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:16:19.251 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:19.251 +07:00 [INF] The file /global.js was not modified
+2025-03-19 13:16:19.252 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 304 null application/javascript 1.0553ms
+2025-03-19 13:16:19.252 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:19.252 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:19.252 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:19.252 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 1.6388ms
+2025-03-19 13:16:19.802 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=e42678699c384148a3cf88a2686b383f&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:19.803 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.803 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.803 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=e42678699c384148a3cf88a2686b383f&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 1.2194ms
+2025-03-19 13:16:19.810 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:16:19.810 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:19.810 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:16:19.810 +07:00 [INF] The file /global.css was not modified
+2025-03-19 13:16:19.810 +07:00 [INF] The file /global.js was not modified
+2025-03-19 13:16:19.811 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 304 null text/css 0.2993ms
+2025-03-19 13:16:19.811 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 304 null application/javascript 0.1946ms
+2025-03-19 13:16:19.811 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:19.811 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:19.811 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:19.811 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.4663ms
+2025-03-19 13:16:19.880 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=0c3d0aaf6bea429e949b0ddba2d3d458&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:19.880 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.881 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.881 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=0c3d0aaf6bea429e949b0ddba2d3d458&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.7674ms
+2025-03-19 13:16:19.888 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:19.888 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:19.888 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:19.888 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:19.889 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.9483ms
+2025-03-19 13:16:19.946 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=c2a4a03455ca405c8c63a0aae1d2c6f2&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:19.946 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.947 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.947 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=c2a4a03455ca405c8c63a0aae1d2c6f2&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.8063ms
+2025-03-19 13:16:19.953 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:19.954 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:19.954 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:19.954 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:19.954 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 1.1852ms
+2025-03-19 13:16:19.994 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=f176127c83684a408f611236e95a1669&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:19.994 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.995 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:19.995 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=f176127c83684a408f611236e95a1669&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.9066ms
+2025-03-19 13:16:20.001 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:20.002 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:20.002 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:20.002 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:20.002 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 1.5178ms
+2025-03-19 13:16:21.446 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=bf48dfeb871848fe9fe7dca0ccb50a6f&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:21.447 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:21.447 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:21.447 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=bf48dfeb871848fe9fe7dca0ccb50a6f&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.8775ms
+2025-03-19 13:16:21.455 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:16:21.455 +07:00 [INF] The file /global.css was not modified
+2025-03-19 13:16:21.455 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 304 null text/css 0.703ms
+2025-03-19 13:16:21.456 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:21.456 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:16:21.456 +07:00 [INF] The file /global.js was not modified
+2025-03-19 13:16:21.456 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 304 null application/javascript 0.2446ms
+2025-03-19 13:16:21.456 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:21.456 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:21.456 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:21.456 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.6053ms
+2025-03-19 13:16:22.729 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=ff80c85e76894926aee081cd7642d7d3&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:22.729 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:22.730 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:22.730 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=ff80c85e76894926aee081cd7642d7d3&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.8489ms
+2025-03-19 13:16:22.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:16:22.746 +07:00 [INF] The file /global.css was not modified
+2025-03-19 13:16:22.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:16:22.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:22.746 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 304 null text/css 0.3304ms
+2025-03-19 13:16:22.746 +07:00 [INF] The file /global.js was not modified
+2025-03-19 13:16:22.746 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 304 null application/javascript 0.2511ms
+2025-03-19 13:16:22.746 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:22.747 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:22.747 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:22.747 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.5091ms
+2025-03-19 13:16:22.813 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=1fa2faa0a5fe4795aa0fa1c1b6aa256f&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:22.813 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:22.813 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:22.813 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=1fa2faa0a5fe4795aa0fa1c1b6aa256f&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.7905ms
+2025-03-19 13:16:22.832 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:22.832 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:22.832 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:22.832 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:22.832 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.594ms
+2025-03-19 13:16:23.049 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/favicon.ico - null null
+2025-03-19 13:16:23.050 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\wwwroot\favicon.ico'
+2025-03-19 13:16:23.050 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/favicon.ico - 200 38078 image/x-icon 1.5295ms
+2025-03-19 13:16:23.181 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=7bd12793e25e4ce4b63a6fefc0e63bd8&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:23.181 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:23.181 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:23.182 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=7bd12793e25e4ce4b63a6fefc0e63bd8&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.9416ms
+2025-03-19 13:16:23.256 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:23.257 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:23.257 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:23.257 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:23.257 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.8923ms
+2025-03-19 13:16:23.332 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/favicon.ico - null null
+2025-03-19 13:16:23.333 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\wwwroot\favicon.ico'
+2025-03-19 13:16:23.333 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/favicon.ico - 200 38078 image/x-icon 0.9987ms
+2025-03-19 13:16:25.272 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=52da303c75e5420b80b4b6a5a7229990&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:16:25.272 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:25.273 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:16:25.273 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?error=login_required&error_description=The%20user%20is%20not%20logged%20in.&error_uri=https%3A%2F%2Fdocumentation.openiddict.com%2Ferrors%2FID2015&state=52da303c75e5420b80b4b6a5a7229990&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 1.1668ms
+2025-03-19 13:16:25.278 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:16:25.278 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:16:25.278 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:16:25.278 +07:00 [INF] The file /global.css was not modified
+2025-03-19 13:16:25.278 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 304 null text/css 0.387ms
+2025-03-19 13:16:25.279 +07:00 [INF] The file /global.js was not modified
+2025-03-19 13:16:25.279 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 304 null application/javascript 0.1761ms
+2025-03-19 13:16:25.279 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:16:25.279 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:16:25.279 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:16:25.279 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.5094ms
+2025-03-19 13:16:25.339 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:16:25.339 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:16:25.340 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:16:25.340 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.8739ms
+2025-03-19 13:16:35.345 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:16:35.345 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:16:35.346 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:16:35.346 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.9197ms
+2025-03-19 13:16:45.358 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:16:45.358 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:16:45.359 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:16:45.359 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.6863ms
+2025-03-19 13:16:55.361 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:16:55.362 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:16:55.362 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:16:55.362 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.7616ms
+2025-03-19 13:17:05.373 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:17:05.373 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:17:05.374 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:17:05.374 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.9719ms
+2025-03-19 13:17:08.626 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?code=wx7Y_cbNCajrAMe7XRUM4ur0gmr3bOi5QmzKBJqZ9Jc&state=07592ed2a9a245df92adec5fc17062d1&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:17:08.627 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:17:08.627 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:17:08.627 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?code=wx7Y_cbNCajrAMe7XRUM4ur0gmr3bOi5QmzKBJqZ9Jc&state=07592ed2a9a245df92adec5fc17062d1&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.79ms
+2025-03-19 13:17:08.633 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - null null
+2025-03-19 13:17:08.634 +07:00 [INF] The file /global.css was not modified
+2025-03-19 13:17:08.634 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.css?_v=638573412641062157 - 304 null text/css 0.5123ms
+2025-03-19 13:17:08.634 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:17:08.634 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - null null
+2025-03-19 13:17:08.634 +07:00 [INF] The file /global.js was not modified
+2025-03-19 13:17:08.634 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/global.js?_v=638573412643868732 - 304 null application/javascript 0.2078ms
+2025-03-19 13:17:08.634 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:17:08.634 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:17:08.634 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:17:08.634 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.47ms
+2025-03-19 13:17:08.670 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.boot.json - null null
+2025-03-19 13:17:08.671 +07:00 [INF] The file /_framework/blazor.boot.json was not modified
+2025-03-19 13:17:08.671 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.boot.json - 304 null application/json 0.2413ms
+2025-03-19 13:17:08.692 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/appsettings.json - null null
+2025-03-19 13:17:08.692 +07:00 [INF] The file /appsettings.json was not modified
+2025-03-19 13:17:08.692 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/appsettings.json - 304 null application/json 0.2351ms
+2025-03-19 13:17:08.710 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/favicon.ico - null null
+2025-03-19 13:17:08.711 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\wwwroot\favicon.ico'
+2025-03-19 13:17:08.711 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/favicon.ico - 200 38078 image/x-icon 0.8959ms
+2025-03-19 13:17:11.307 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/authentication/login-callback?code=-fd2VTdVkZYidiSaufKZxm4oWqS3V9dazs1NvV0DXrY&state=2274abfccd174f10aedf7718909552ed&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - null null
+2025-03-19 13:17:11.307 +07:00 [INF] Executing endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:17:11.308 +07:00 [INF] Executed endpoint '/authentication/{action} (/authentication/{action})'
+2025-03-19 13:17:11.308 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/authentication/login-callback?code=-fd2VTdVkZYidiSaufKZxm4oWqS3V9dazs1NvV0DXrY&state=2274abfccd174f10aedf7718909552ed&iss=https%3A%2F%2Flocalhost%3A44325%2F&culture=en&ui-culture=en - 200 null text/html; charset=utf-8 0.7847ms
+2025-03-19 13:17:11.312 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - null null
+2025-03-19 13:17:11.313 +07:00 [INF] Executing endpoint 'Blazor web static files'
+2025-03-19 13:17:11.313 +07:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-03-19 13:17:11.313 +07:00 [INF] Executed endpoint 'Blazor web static files'
+2025-03-19 13:17:11.313 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/blazor.web.js - 304 null text/javascript 0.4795ms
+2025-03-19 13:17:13.725 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/favicon.ico - null null
+2025-03-19 13:17:13.726 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Code\FStack\Acme.BookStore\src\Acme.BookStore.Blazor.Client\wwwroot\favicon.ico'
+2025-03-19 13:17:13.726 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/favicon.ico - 200 38078 image/x-icon 0.7888ms
+2025-03-19 13:17:15.388 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:17:15.388 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:17:15.388 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:17:15.388 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.7274ms
+2025-03-19 13:17:25.390 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:17:25.391 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:17:25.391 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:17:25.391 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5989ms
+2025-03-19 13:17:35.398 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:17:35.398 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:17:35.398 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:17:35.398 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 1.0022ms
+2025-03-19 13:17:45.409 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:17:45.409 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:17:45.410 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:17:45.410 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.591ms
+2025-03-19 13:17:55.420 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:17:55.420 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:17:55.421 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:17:55.421 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5661ms
+2025-03-19 13:18:05.423 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:18:05.423 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:18:05.423 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:18:05.423 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.6416ms
+2025-03-19 13:18:15.441 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:18:15.441 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:18:15.441 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:18:15.441 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5928ms
+2025-03-19 13:18:25.444 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:18:25.444 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:18:25.446 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:18:25.446 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 2.4377ms
+2025-03-19 13:18:35.455 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:18:35.455 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:18:35.456 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:18:35.456 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.6392ms
+2025-03-19 13:18:45.465 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:18:45.465 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:18:45.466 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:18:45.466 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 1.1842ms
+2025-03-19 13:18:55.468 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:18:55.468 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:18:55.468 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:18:55.469 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.592ms
+2025-03-19 13:19:05.473 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:19:05.474 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:19:05.474 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:19:05.474 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.7313ms
+2025-03-19 13:19:15.477 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:19:15.477 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:19:15.479 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:19:15.479 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 2.1044ms
+2025-03-19 13:19:25.495 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:19:25.495 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:19:25.496 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:19:25.496 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.8474ms
+2025-03-19 13:19:35.502 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:19:35.502 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:19:35.502 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:19:35.502 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.4522ms
+2025-03-19 13:19:45.513 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:19:45.513 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:19:45.514 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:19:45.514 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 1.0092ms
+2025-03-19 13:19:55.524 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:19:55.524 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:19:55.524 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:19:55.525 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.753ms
+2025-03-19 13:20:05.528 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:20:05.528 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:20:05.529 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:20:05.529 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 1.2621ms
+2025-03-19 13:20:15.540 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:20:15.540 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:20:15.540 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:20:15.540 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5679ms
+2025-03-19 13:20:25.548 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:20:25.549 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:20:25.550 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:20:25.550 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 1.2013ms
+2025-03-19 13:20:35.556 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:20:35.556 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:20:35.557 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:20:35.557 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.8017ms
+2025-03-19 13:20:45.558 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:20:45.558 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:20:45.559 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:20:45.559 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5047ms
+2025-03-19 13:20:55.564 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:20:55.564 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:20:55.564 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:20:55.564 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.3896ms
+2025-03-19 13:21:05.567 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:21:05.567 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:21:05.568 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:21:05.568 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 1.2109ms
+2025-03-19 13:21:15.580 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:21:15.580 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:21:15.581 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:21:15.581 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5031ms
+2025-03-19 13:21:25.588 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:21:25.588 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:21:25.588 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:21:25.589 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.952ms
+2025-03-19 13:21:35.605 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:21:35.605 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:21:35.606 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:21:35.606 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.6083ms
+2025-03-19 13:21:45.609 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:21:45.609 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:21:45.610 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:21:45.610 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.6415ms
+2025-03-19 13:21:55.618 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:21:55.618 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:21:55.619 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:21:55.619 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.4728ms
+2025-03-19 13:22:05.635 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:22:05.635 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:22:05.635 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:22:05.635 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.7501ms
+2025-03-19 13:22:15.645 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:22:15.645 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:22:15.646 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:22:15.646 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.3738ms
+2025-03-19 13:22:25.658 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44340/ - null null
+2025-03-19 13:22:25.658 +07:00 [INF] Executing endpoint '/ (/)'
+2025-03-19 13:22:25.658 +07:00 [INF] Executed endpoint '/ (/)'
+2025-03-19 13:22:25.659 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44340/ - 200 null text/html; charset=utf-8 0.5281ms
+2025-03-19 13:22:29.260 +07:00 [INF] Application is shutting down...
